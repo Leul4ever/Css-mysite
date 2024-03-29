@@ -4,20 +4,25 @@ body{
     font-family: "Merriweather", serif;
     color:  #40514E; 
   
+  
 }
 h1{
-   margin: 0 auto ;
+   margin-top:50px,auto,0,auto;
    color:#66BFBF ;
-   font-size: 2rem;
+   font-size: 5.625rem;
    line-height: 2;
    font-family: 'Sacramento',cursive;
+
 }
 h2{
     font-family: "Merriweather", sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
 
 }
 h3{
     font-family: "Merriweather", sans-serif;
+    color: #11999E;
 }
 
 p{
@@ -58,14 +63,10 @@ p{
     border-radius:70px;
 }
 .middle-container{
-    width: 100px;
-    height: 100px;
-    background-color:red;
+    
     
     }
 .bottom-container{
-   width: 100px;
-    height: 100px;
-    background-color:yellow;
+  
     
  }
