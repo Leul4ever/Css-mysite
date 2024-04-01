@@ -70,3 +70,15 @@ p{
   
     
  }
+ .skill-row{
+    margin: 100px auto ;
+    width: 50%;
+ }
+ 
+ 
+ .code-description{
+    text-align: left;
+ }
+ .chess-description{
+    text-align: left;
+ } 
