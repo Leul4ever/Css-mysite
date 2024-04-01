@@ -14,10 +14,22 @@ h1{
    font-family: 'Sacramento',cursive;
 
 }
+.leul{
+   padding-top: 30px;
+}
+hr{
+border: dotted #EAF6F6 6px; ;
+border-bottom: none;
+width: 4%;
+margin: 100px auto;
+color:#66BFBF;
+
+}
 h2{
     font-family: "Merriweather", sans-serif;
     font-size: 2.5rem;
     color: #66BFBF;
+    padding-bottom: 10px;
 
 }
 h3{
@@ -27,6 +39,10 @@ h3{
 
 p{
    line-height: 2;
+}
+.intro{
+   width: 30%;
+   margin: auto;
 }
 
 .programmer{
@@ -39,6 +55,7 @@ p{
    background-color: #E4F9F5;
    position: relative;
    padding-top: 100px ;
+  
 
    
 }
@@ -47,38 +64,81 @@ p{
    width: 100px;
    height: 100px;
    position: absolute;
-   right: 300px;
-   top:50px;
+   right: 20%;
+   
+   top:40px;
    border-radius: 50px;
 }
 .bottom-cloud{
     width: 100px;
     height: 100px;
     position: absolute;
-    left: 200px;
-    bottom: 200px;
+    left: 10%;
+    bottom: 250px;
     border-radius: 50px;
+   
 }
+
 .mountain{
     border-radius:70px;
 }
 .middle-container{
+   padding-bottom: 10px;
     
     
     }
 .bottom-container{
-  
-    
+   margin-top:30px;
+   background-color:#66BFBF;
+   padding-bottom: 10px;
  }
  .skill-row{
     margin: 100px auto ;
     width: 50%;
- }
- 
- 
- .code-description{
     text-align: left;
  }
+ .andriod{
+    width:  25%;
+    float: left;
+    margin-right: 30px;
+ }
+.chess{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+ 
+  .code-description{
+  clear: left;  
+}
+
  .chess-description{
-    text-align: left;
+ clear:right;
  } 
+ .contact-message{
+   width: 25%;
+   margin: 40px auto 60px;
+ } 
+ 
+ .btn {
+   background-color: #11cdd4;
+   background-image: linear-gradient(to bottom, #11cdd4, #1199ee); /* Fix color code */
+   border-radius: 8px;
+   color: #ffffff;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 20px; 
+   padding: 10px 20px;
+   text-decoration: none;
+}
+
+.btn:hover {
+   background-color: #30e3cb;
+   background-image: linear-gradient(to bottom, #30e3cb, #2bc4aa); /* Fix color code */
+   text-decoration: none;
+}
+.footer-link{
+   padding: 10px;
+   
+}
+
+
